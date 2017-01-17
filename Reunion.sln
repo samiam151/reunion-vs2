@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Reunion", "Reunion\Reunion.pyproj", "{324AE3B6-E1D7-4500-93B9-ADD695A8B3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05B539BD-B28A-47B1-AC7B-CEF99209A2E6}"
+	ProjectSection(SolutionItems) = preProject
+		WE-Palette.css = WE-Palette.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{324AE3B6-E1D7-4500-93B9-ADD695A8B3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324AE3B6-E1D7-4500-93B9-ADD695A8B3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324AE3B6-E1D7-4500-93B9-ADD695A8B3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324AE3B6-E1D7-4500-93B9-ADD695A8B3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Phillips Family Reunion</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <!-- Header -->
+    {% include "includes/_header.html" %}
+
+    <!-- Content -->
+    <div class="container fadein">
+        {% block content %}{% endblock content %}
+    </div>
+    
+    <!-- Footer -->
+    {% include "includes/_footer.html" %}
+
+    <!--Scripts for every template-->
+    <script type="text/javascript" src="{% static "js/libs/jquery-3.1.1.min.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/polyfills.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/main.js" %}"></script>
+    <!--Scripts from individual template -->
+    {% block template_scripts %}{% endblock template_scripts %} 
+
+</body>
+</html>

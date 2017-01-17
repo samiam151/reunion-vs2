@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>Reunion</Name>
+    <RootNamespace>Reunion</RootNamespace>
+    <InterpreterId>{d3136bd1-18c1-461f-a637-d8053065b084}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+    <PythonRunWebServerCommandArguments>runserver 7555</PythonRunWebServerCommandArguments>
+    <PythonRunWebServerCommand>
+    </PythonRunWebServerCommand>
+    <PythonDebugWebServerCommandArguments>runserver 7555 --noreload </PythonDebugWebServerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>324ae3b6-e1d7-4500-93b9-add695a8b3ce</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>Reunion.settings</DjangoSettingsModule>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="events\admin.py" />
+    <Compile Include="events\apps.py" />
+    <Compile Include="events\migrations\0001_initial.py" />
+    <Compile Include="events\migrations\0002_auto_20161226_1830.py" />
+    <Compile Include="events\migrations\__init__.py" />
+    <Compile Include="events\models.py" />
+    <Compile Include="events\tests.py" />
+    <Compile Include="events\urls.py" />
+    <Compile Include="events\views.py" />
+    <Compile Include="events\__init__.py" />
+    <Compile Include="home\admin.py" />
+    <Compile Include="home\apps.py" />
+    <Compile Include="home\models.py" />
+    <Compile Include="home\tests.py" />
+    <Compile Include="home\urls.py" />
+    <Compile Include="home\views.py" />
+    <Compile Include="home\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="Reunion\__init__.py" />
+    <Compile Include="Reunion\settings.py" />
+    <Compile Include="Reunion\urls.py" />
+    <Compile Include="Reunion\wsgi.py" />
+    <Compile Include="rsvp\admin.py" />
+    <Compile Include="rsvp\apps.py" />
+    <Compile Include="rsvp\forms.py" />
+    <Compile Include="rsvp\migrations\0001_initial.py" />
+    <Compile Include="rsvp\migrations\0002_auto_20161213_2002.py" />
+    <Compile Include="rsvp\migrations\0003_auto_20161213_2030.py" />
+    <Compile Include="rsvp\migrations\0004_auto_20161213_2031.py" />
+    <Compile Include="rsvp\migrations\0005_delete_member.py" />
+    <Compile Include="rsvp\migrations\0006_auto_20161213_2043.py" />
+    <Compile Include="rsvp\migrations\0007_auto_20161213_2131.py" />
+    <Compile Include="rsvp\migrations\0007_auto_20161213_2225.py" />
+    <Compile Include="rsvp\migrations\0008_merge.py" />
+    <Compile Include="rsvp\migrations\0009_auto_20170110_0207.py" />
+    <Compile Include="rsvp\migrations\__init__.py" />
+    <Compile Include="rsvp\models.py" />
+    <Compile Include="rsvp\tests.py" />
+    <Compile Include="rsvp\urls.py" />
+    <Compile Include="rsvp\views.py" />
+    <Compile Include="rsvp\__init__.py" />
+    <Compile Include="tree\admin.py" />
+    <Compile Include="tree\apps.py" />
+    <Compile Include="tree\migrations\__init__.py" />
+    <Compile Include="tree\models.py" />
+    <Compile Include="tree\tests.py" />
+    <Compile Include="tree\urls.py" />
+    <Compile Include="tree\views.py" />
+    <Compile Include="tree\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="events\admin.pyc" />
+    <Content Include="events\migrations\0001_initial.pyc" />
+    <Content Include="events\migrations\0002_auto_20161226_1830.pyc" />
+    <Content Include="events\migrations\__init__.pyc" />
+    <Content Include="events\migrations\__pycache__\0001_initial.cpython-34.pyc" />
+    <Content Include="events\migrations\__pycache__\0002_auto_20161226_1830.cpython-34.pyc" />
+    <Content Include="events\migrations\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="events\models.pyc" />
+    <Content Include="events\urls.pyc" />
+    <Content Include="events\views.pyc" />
+    <Content Include="events\__init__.pyc" />
+    <Content Include="events\__pycache__\admin.cpython-34.pyc" />
+    <Content Include="events\__pycache__\models.cpython-34.pyc" />
+    <Content Include="events\__pycache__\urls.cpython-34.pyc" />
+    <Content Include="events\__pycache__\views.cpython-34.pyc" />
+    <Content Include="events\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="home\admin.pyc" />
+    <Content Include="home\models.pyc" />
+    <Content Include="home\urls.pyc" />
+    <Content Include="home\views.pyc" />
+    <Content Include="home\__init__.pyc" />
+    <Content Include="home\__pycache__\admin.cpython-34.pyc" />
+    <Content Include="home\__pycache__\models.cpython-34.pyc" />
+    <Content Include="home\__pycache__\urls.cpython-34.pyc" />
+    <Content Include="home\__pycache__\views.cpython-34.pyc" />
+    <Content Include="home\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="requirements.txt" />
+    <Content Include="rsvp\admin.pyc" />
+    <Content Include="rsvp\migrations\0001_initial.pyc" />
+    <Content Include="rsvp\migrations\0002_auto_20161213_2002.pyc" />
+    <Content Include="rsvp\migrations\0003_auto_20161213_2030.pyc" />
+    <Content Include="rsvp\migrations\0004_auto_20161213_2031.pyc" />
+    <Content Include="rsvp\migrations\0005_delete_member.pyc" />
+    <Content Include="rsvp\migrations\0006_auto_20161213_2043.pyc" />
+    <Content Include="rsvp\migrations\0007_auto_20161213_2131.pyc" />
+    <Content Include="rsvp\migrations\0007_auto_20161213_2225.pyc" />
+    <Content Include="rsvp\migrations\0008_merge.pyc" />
+    <Content Include="rsvp\migrations\0009_auto_20170110_0207.pyc" />
+    <Content Include="rsvp\migrations\__init__.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0001_initial.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0002_auto_20161213_2002.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0003_auto_20161213_2030.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0004_auto_20161213_2031.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0005_delete_member.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0006_auto_20161213_2043.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0007_auto_20161213_2131.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0007_auto_20161213_2225.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0008_merge.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\0009_auto_20170110_0207.cpython-34.pyc" />
+    <Content Include="rsvp\migrations\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="rsvp\models.pyc" />
+    <Content Include="rsvp\urls.pyc" />
+    <Content Include="rsvp\views.pyc" />
+    <Content Include="rsvp\__init__.pyc" />
+    <Content Include="rsvp\__pycache__\admin.cpython-34.pyc" />
+    <Content Include="rsvp\__pycache__\models.cpython-34.pyc" />
+    <Content Include="rsvp\__pycache__\urls.cpython-34.pyc" />
+    <Content Include="rsvp\__pycache__\views.cpython-34.pyc" />
+    <Content Include="rsvp\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="runserver.sh" />
+    <Content Include="static-root\admin\css\base.css" />
+    <Content Include="static-root\admin\css\changelists.css" />
+    <Content Include="static-root\admin\css\dashboard.css" />
+    <Content Include="static-root\admin\css\fonts.css" />
+    <Content Include="static-root\admin\css\forms.css" />
+    <Content Include="static-root\admin\css\login.css" />
+    <Content Include="static-root\admin\css\rtl.css" />
+    <Content Include="static-root\admin\css\widgets.css" />
+    <Content Include="static-root\admin\fonts\LICENSE.txt" />
+    <Content Include="static-root\admin\fonts\README.txt" />
+    <Content Include="static-root\admin\fonts\Roboto-Bold-webfont.woff" />
+    <Content Include="static-root\admin\fonts\Roboto-Light-webfont.woff" />
+    <Content Include="static-root\admin\fonts\Roboto-Regular-webfont.woff" />
+    <Content Include="static-root\admin\img\calendar-icons.svg" />
+    <Content Include="static-root\admin\img\gis\move_vertex_off.svg" />
+    <Content Include="static-root\admin\img\gis\move_vertex_on.svg" />
+    <Content Include="static-root\admin\img\icon-addlink.svg" />
+    <Content Include="static-root\admin\img\icon-alert.svg" />
+    <Content Include="static-root\admin\img\icon-calendar.svg" />
+    <Content Include="static-root\admin\img\icon-changelink.svg" />
+    <Content Include="static-root\admin\img\icon-clock.svg" />
+    <Content Include="static-root\admin\img\icon-deletelink.svg" />
+    <Content Include="static-root\admin\img\icon-no.svg" />
+    <Content Include="static-root\admin\img\icon-unknown-alt.svg" />
+    <Content Include="static-root\admin\img\icon-unknown.svg" />
+    <Content Include="static-root\admin\img\icon-yes.svg" />
+    <Content Include="static-root\admin\img\inline-delete.svg" />
+    <Content Include="static-root\admin\img\LICENSE" />
+    <Content Include="static-root\admin\img\README.txt" />
+    <Content Include="static-root\admin\img\search.svg" />
+    <Content Include="static-root\admin\img\selector-icons.svg" />
+    <Content Include="static-root\admin\img\sorting-icons.svg" />
+    <Content Include="static-root\admin\img\tooltag-add.svg" />
+    <Content Include="static-root\admin\img\tooltag-arrowright.svg" />
+    <Content Include="static-root\admin\js\actions.js" />
+    <Content Include="static-root\admin\js\actions.min.js" />
+    <Content Include="static-root\admin\js\admin\DateTimeShortcuts.js" />
+    <Content Include="static-root\admin\js\admin\RelatedObjectLookups.js" />
+    <Content Include="static-root\admin\js\calendar.js" />
+    <Content Include="static-root\admin\js\collapse.js" />
+    <Content Include="static-root\admin\js\collapse.min.js" />
+    <Content Include="static-root\admin\js\core.js" />
+    <Content Include="static-root\admin\js\inlines.js" />
+    <Content Include="static-root\admin\js\inlines.min.js" />
+    <Content Include="static-root\admin\js\jquery.init.js" />
+    <Content Include="static-root\admin\js\prepopulate.js" />
+    <Content Include="static-root\admin\js\prepopulate.min.js" />
+    <Content Include="static-root\admin\js\SelectBox.js" />
+    <Content Include="static-root\admin\js\SelectFilter2.js" />
+    <Content Include="static-root\admin\js\timeparse.js" />
+    <Content Include="static-root\admin\js\urlify.js" />
+    <Content Include="static-root\admin\js\vendor\jquery\jquery.js" />
+    <Content Include="static-root\admin\js\vendor\jquery\jquery.min.js" />
+    <Content Include="static-root\admin\js\vendor\jquery\LICENSE-JQUERY.txt" />
+    <Content Include="static-root\admin\js\vendor\xregexp\LICENSE-XREGEXP.txt" />
+    <Content Include="static-root\admin\js\vendor\xregexp\xregexp.min.js" />
+    <Content Include="static-root\css\components\_auto-search.scss" />
+    <Content Include="static-root\css\components\_family_tree.scss" />
+    <Content Include="static-root\css\components\_next-event.scss" />
+    <Content Include="static-root\css\events\_events.scss" />
+    <Content Include="static-root\css\global\_footer.scss" />
+    <Content Include="static-root\css\global\_global.scss" />
+    <Content Include="static-root\css\global\_header.scss" />
+    <Content Include="static-root\css\global\_layout.scss" />
+    <Content Include="static-root\css\global\_mobile.scss" />
+    <Content Include="static-root\css\global\_variables.scss" />
+    <Content Include="static-root\css\home\_home.scss" />
+    <Content Include="static-root\css\rsvps\_rsvps.scss" />
+    <Content Include="static-root\css\style.css" />
+    <Content Include="static-root\css\style.scss" />
+    <Content Include="static-root\js\components\autosearch.js" />
+    <Content Include="static-root\js\components\event-scroll.js" />
+    <Content Include="static-root\js\components\family-tree.js" />
+    <Content Include="static-root\js\components\next-event.js" />
+    <Content Include="static-root\js\libs\d3-4.4.1\.gitignore" />
+    <Content Include="static-root\js\libs\d3-4.4.1\.npmignore" />
+    <Content Include="static-root\js\libs\d3-4.4.1\API.md" />
+    <Content Include="static-root\js\libs\d3-4.4.1\CHANGES.md" />
+    <Content Include="static-root\js\libs\d3-4.4.1\d3.sublime-project" />
+    <Content Include="static-root\js\libs\d3-4.4.1\img\axis-v3.png" />
+    <Content Include="static-root\js\libs\d3-4.4.1\img\axis-v4.png" />
+    <Content Include="static-root\js\libs\d3-4.4.1\img\pack-v3.png" />
+    <Content Include="static-root\js\libs\d3-4.4.1\img\pack-v4.png" />
+    <Content Include="static-root\js\libs\d3-4.4.1\img\stratify.png" />
+    <Content Include="static-root\js\libs\d3-4.4.1\index.js" />
+    <Content Include="static-root\js\libs\d3-4.4.1\ISSUE_TEMPLATE.md" />
+    <Content Include="static-root\js\libs\d3-4.4.1\LICENSE" />
+    <Content Include="static-root\js\libs\d3-4.4.1\npm-debug.log" />
+    <Content Include="static-root\js\libs\d3-4.4.1\package.json" />
+    <Content Include="static-root\js\libs\d3-4.4.1\README.md" />
+    <Content Include="static-root\js\libs\d3-4.4.1\rollup.config.js" />
+    <Content Include="static-root\js\libs\d3-4.4.1\rollup.node.js" />
+    <Content Include="static-root\js\libs\d3-4.4.1\test\d3-test.js" />
+    <Content Include="static-root\js\libs\d3-4.4.1\test\test-exports.js" />
+    <Content Include="static-root\js\libs\d3-geo.min.js" />
+    <Content Include="static-root\js\libs\d3.min.js" />
+    <Content Include="static-root\js\libs\jquery-3.1.1.min.js" />
+    <Content Include="static-root\js\main.js" />
+    <Content Include="static-root\js\polyfills.js" />
+    <Content Include="templates\components\next-event.html" />
+    <Content Include="templates\components\search_rsvps.html" />
+    <Content Include="templates\events\detail.html" />
+    <Content Include="templates\events\home.html" />
+    <Content Include="templates\home\index.html" />
+    <Content Include="templates\home\tree.html" />
+    <Content Include="templates\includes\_footer.html" />
+    <Content Include="templates\includes\_header.html" />
+    <Content Include="templates\includes\_scripts.html" />
+    <Content Include="templates\rsvp\add.html" />
+    <Content Include="templates\rsvp\detail.html" />
+    <Content Include="templates\rsvp\edit.html" />
+    <Content Include="templates\rsvp\list.html" />
+    <Content Include="templates\shared\_layout.html" />
+    <Content Include="templates\tree\index.html" />
+    <Content Include="tree\admin.pyc" />
+    <Content Include="tree\migrations\__init__.pyc" />
+    <Content Include="tree\models.pyc" />
+    <Content Include="tree\urls.pyc" />
+    <Content Include="tree\views.pyc" />
+    <Content Include="tree\__init__.pyc" />
+    <Content Include="tree\__pycache__\urls.cpython-34.pyc" />
+    <Content Include="tree\__pycache__\views.cpython-34.pyc" />
+    <Content Include="tree\__pycache__\__init__.cpython-34.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="events\" />
+    <Folder Include="events\migrations\" />
+    <Folder Include="events\migrations\__pycache__\" />
+    <Folder Include="events\__pycache__\" />
+    <Folder Include="home\" />
+    <Folder Include="home\__pycache__\" />
+    <Folder Include="Reunion\" />
+    <Folder Include="rsvp\" />
+    <Folder Include="rsvp\migrations\" />
+    <Folder Include="rsvp\migrations\__pycache__\" />
+    <Folder Include="rsvp\__pycache__\" />
+    <Folder Include="static-root\" />
+    <Folder Include="static-root\admin\" />
+    <Folder Include="static-root\admin\css\" />
+    <Folder Include="static-root\admin\fonts\" />
+    <Folder Include="static-root\admin\img\" />
+    <Folder Include="static-root\admin\img\gis\" />
+    <Folder Include="static-root\admin\js\" />
+    <Folder Include="static-root\admin\js\admin\" />
+    <Folder Include="static-root\admin\js\vendor\" />
+    <Folder Include="static-root\admin\js\vendor\jquery\" />
+    <Folder Include="static-root\admin\js\vendor\xregexp\" />
+    <Folder Include="static-root\css\" />
+    <Folder Include="static-root\css\components\" />
+    <Folder Include="static-root\css\events\" />
+    <Folder Include="static-root\css\global\" />
+    <Folder Include="static-root\css\home\" />
+    <Folder Include="static-root\css\rsvps\" />
+    <Folder Include="static-root\images\" />
+    <Folder Include="static-root\js\" />
+    <Folder Include="static-root\js\components\" />
+    <Folder Include="static-root\js\libs\" />
+    <Folder Include="static-root\js\libs\d3-4.4.1\" />
+    <Folder Include="static-root\js\libs\d3-4.4.1\img\" />
+    <Folder Include="static-root\js\libs\d3-4.4.1\test\" />
+    <Folder Include="templates\" />
+    <Folder Include="templates\components\" />
+    <Folder Include="templates\events\" />
+    <Folder Include="templates\home\" />
+    <Folder Include="templates\includes\" />
+    <Folder Include="templates\rsvp\" />
+    <Folder Include="templates\shared\" />
+    <Folder Include="templates\tree\" />
+    <Folder Include="tree\" />
+    <Folder Include="tree\migrations\" />
+    <Folder Include="tree\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="reunion_env\">
+      <Id>{d3136bd1-18c1-461f-a637-d8053065b084}</Id>
+      <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
+      <Version>3.5</Version>
+      <Description>reunion_env (Python 3.5)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
