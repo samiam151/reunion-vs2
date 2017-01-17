@@ -37,7 +37,4 @@
     function clear_headers(){
         $(".day-title.sticky").removeClass('sticky');
     }
-    function log(msg) {
-        console.log(msg);
-    }
 }(jQuery));
